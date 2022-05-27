@@ -45,11 +45,14 @@ body{
 }
 .formMessage
 {
-    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 270px;
+    left: 25px;
     text-align: center;
 }
 .formMessage--success
 { 
+    
     color: var(--color-success);
 }
 .formMessage--error
@@ -73,7 +76,7 @@ body{
 }
 .title
 {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 .formInput-group
@@ -166,7 +169,7 @@ body{
 .eye
 {
     position: absolute;
-    top: 128px;
+    top: 158px;
     left: 275px;
     cursor: pointer;
 }
