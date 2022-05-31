@@ -223,14 +223,14 @@ body{
 .eye1
 {
     position: absolute;
-    top: 178px;
+    top: 208px;
     left: 275px;
     cursor: pointer;
 }
 .eye2
 {
     position: absolute;
-    top: 228px;
+    top: 258px;
     left: 275px;
     cursor: pointer;
 }

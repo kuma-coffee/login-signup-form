@@ -28,6 +28,9 @@ var state = false;
                 document.getElementById("password").setAttribute("type","text");
                 document.getElementById("eye").style.color="#009579";
                 state = true;
+                setTimeout(() => {
+                    
+                }, 3);
             }
         }
 
