@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_signupStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <form class="loginForm" id="login">
+            <h1 class="title">Login</h1>
+            <div class="formMessage formMessage--error"></div>
+            <div class="formInput-group">
+                <input type="text" name="username" class="formInput" placeholder="Username or Email" required>
+                <div class="errorMessage"></div>
+            </div>
+            <div class="formInput-group">
+                <input type="password" name="password"  class="formInput" id="password" placeholder="Password" required>
+                <span class="eye"><i class="fas fa-eye" aria-hidden="true" id="eye" onclick="toogle()"></i></span>
+                <div class="errorMessage"></div>
+            </div>
+            <div class="lower">
+                <button class="btn" type="submit">Continue</button>
+                <p class="forgotPass">
+                    <a href="#" class="linkForgot">Forgot your password?</a>
+                </p>
+                <p class="linkCreateAcc">
+                    <a href="./" class="linkCreate" id="linkCreateAccount">Don't have an account? Create account</a>
+                </p>
+            </div>
+        </form>
+        <form class="createAcc"  id="createAccount">
+            <div class="createAccForm">
+                <h1 class="title">Create Account</h1>
+                <div class="formMessage formMessage--error"></div>
+                <div class="formInput-group">
+                    <input type="text" name="username"  class="formInput" placeholder="Username" required>
+                    <div class="errorMessage"></div>
+                </div>
+                <div class="formInput-group">
+                    <input type="text" name="username"  class="formInput" placeholder="Email" required>
+                    <div class="errorMessage"></div>
+                </div>
+                <div class="formInput-group">
+                    <input type="password" name="password"  class="formInput" id="password1" placeholder="Password" required>
+                    <span class="eye1"><i class="fas fa-eye" aria-hidden="true" id="eye1" onclick="toogle1()"></i></span>
+                    <div class="errorMessage"></div>
+                </div>
+                <div class="formInput-group">
+                    <input type="password" name="password"  class="formInput" id="password2" placeholder="Confirm password" required>
+                    <span class="eye2"><i class="fas fa-eye" aria-hidden="true" id="eye2" onclick="toogle2()"></i></span>
+                    <div class="errorMessage"></div>
+                </div>
+                <div class="lower">
+                    <button class="btn" type="submit">Continue</button>
+                    <p class="login">
+                        <a href="./" class="linkLogin" id="linkLogin">Already have an account? Sign in</a>
+                    </p>
+                </div>    
+        </form>
+    </div>
+    <script src="login_signup.js"></script>
+</body>
+</html>
