@@ -1,2 +1,2 @@
 # login-signup-form
-Login and Signup Form using HRML, CSS and JavaScript
+Login and Signup Form using HTML, CSS and JavaScript
